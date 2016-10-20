@@ -11,12 +11,22 @@ public class StringComparator {
 		Scanner scan= new Scanner(System.in);
 		B=scan.nextLine();
 		
-		
-		if(A.equals(B)){
-		    System.out.println("same");
-		}
+		for(int i = 0; i < 99; i++){
+		if(!A.equals(B))
+			{
+		    	System.out.println("not same");
+		    	Scanner scan1= new Scanner(System.in);
+				B=scan1.nextLine();
+			}
 		else
-			System.out.println("not same");
+		{System.out.println("same");
+		
+		break;}
+		}	
+			
+			
+			
+		
 		
 		
 		
